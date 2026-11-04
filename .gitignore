@@ -1,0 +1,9 @@
+results/
+wheels/*.whl
+.venv/
+__pycache__/
+.ruff_cache/
+.hypothesis/
+.pabotsuitenames
+# Locks the hashes of local wheels, which differ per build
+uv.lock
