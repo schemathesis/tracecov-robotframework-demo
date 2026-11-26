@@ -25,7 +25,7 @@ Expect failures: two tests hit real Petstore bugs, and most generated tests fail
 ## Add it to your suite
 
 ```console
-$ pip install tracecov_professional-*.whl
+$ pip install --find-links wheels tracecov-professional==0.26.0
 $ robot --listener "tracecov.robotframework.TraceCov;openapi.json;data=tracecov.data" tests
 ```
 
